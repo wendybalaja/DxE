@@ -26,12 +26,18 @@ PS: Not sure how to get that contact form working? Give formspree.io a try (it's
 
 Credits:
 
-	Demo Images:
-		regularjane (regularjane.deviantart.com)
-
 	Icons:
 		Font Awesome (fontawesome.io)
 
 	Other:
 		jQuery (jquery.com)
 		Responsive Tools (github.com/ajlkn/responsive-tools)
+
+____________________________
+
+Edited by Meiwen(Wendy) Zhou
+
+Credits: 
+
+	Ohter: 
+		Bootstrap (getbootstrap.com)
