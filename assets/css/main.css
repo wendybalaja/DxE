@@ -99,16 +99,17 @@ input, select, textarea {
 
 	body, input, textarea, select {
 		font-family: 'Source Sans Pro';
-		font-weight: 300;
-		color: #777;
+		font-weight: 350;
+		color: #555; 
+		/* done */
 		line-height: 1.65em;
-		font-size: 15pt;
+		font-size: 16pt;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 600;
 		text-transform: uppercase;
-		color: #888;
+		color: #666;/* done */
 	}
 
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -136,9 +137,9 @@ input, select, textarea {
 		-webkit-transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
 		-ms-transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
 		transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
-		color: #666;
+		color: #444;/* done */
 		text-decoration: none;
-		border-bottom: solid 1px #ddd;
+		border-bottom: solid 1px #ccc;
 	}
 
 		a strong {
@@ -149,19 +150,18 @@ input, select, textarea {
 		}
 
 		a:hover {
-			/* color: #ed786a; */
-			color: #214187;
-			/* border-bottom-color: rgba(255, 255, 255, 0); */
+			color: #2b55ad ;
 		}
 
 			a:hover strong {
-				color: #214187;
-				/* color: #ed786a; */
+				color: #2b55ad ;
+				/* color: #214187; */
+				
 			}
 
 	strong, b {
 		font-weight: 600;
-		color: #666;
+		color: #444;/* done */
 	}
 
 	em, i {
@@ -1682,7 +1682,7 @@ input, select, textarea {
 	form label {
 		font-weight: 600;
 		text-transform: uppercase;
-		color: #888;
+		color: #666; /* done */
 		display: block;
 		margin: 0 0 1em 0;
 	}
@@ -1720,20 +1720,21 @@ input, select, textarea {
 	}
 
 	form ::-webkit-input-placeholder {
-		color: #555 !important;
+		/* done */
+		color: #333 !important;
 		line-height: 1.35em;
 	}
 
 	form :-moz-placeholder {
-		color: #555 !important;
+		color: #333 !important;
 	}
 
 	form ::-moz-placeholder {
-		color: #555 !important;
+		color: #333 !important;
 	}
 
 	form :-ms-input-placeholder {
-		color: #555 !important;
+		color: #333 !important;
 	}
 
 	form ::-moz-focus-inner {
@@ -1794,7 +1795,8 @@ input, select, textarea {
 		-webkit-appearance: none;
 		position: relative;
 		display: inline-block;
-		background: #214187;
+		/* background: #214187; */
+		background: #2b55ad ;
 		color: #fff;
 		text-transform: uppercase;
 		border-radius: 4px;
@@ -1825,8 +1827,8 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			/* background: #fd887a; */
-			background: #305ec1;
+			background: #7a9ade;
+			/* background: #e27f9e; */
 		}
 
 		input[type="button"]:active,
@@ -1834,8 +1836,8 @@ input, select, textarea {
 		input[type="reset"]:active,
 		button:active,
 		.button:active {
-			/* background: #ed786a; */
-			background: #214187;
+			/* background: #214187; */
+			background: #2b55ad ;
 		}
 
 		input[type="button"].alt,
@@ -1944,7 +1946,7 @@ input, select, textarea {
 		#header h1 {
 			font-family: 'Arvo';
 			font-weight: 700;
-			/* color: #ed786a; */
+			/* color: #2b55ad ; */
 			color: #214187;
 			text-shadow: 0.05em 0.075em 0 rgba(0, 0, 0, 0.1);
 			font-size: 3em;
@@ -1958,7 +1960,7 @@ input, select, textarea {
 		#header p {
 			text-transform: uppercase;
 			font-weight: 400;
-			color: #888;
+			color: #666;/* done */
 			margin: 2.5em 0 0 0;
 			font-size: 0.85em;
 			letter-spacing: 3px;
@@ -1985,7 +1987,7 @@ input, select, textarea {
 				text-decoration: none;
 				text-transform: uppercase;
 				font-weight: 500;
-				color: #777;
+				color: #555; /* done */
 				outline: 0;
 				display: block;
 			}
@@ -2025,15 +2027,15 @@ input, select, textarea {
 
 			#nav > ul > li.active > a:before,
 			#nav > ul > li:hover > a:before {
-				/* background: #ED786A; */
-				color: #214187;
+				/* color: #214187; */
+				color: #2b55ad ;
 				color: #fff;
 			}
 
 			#nav > ul > li.active > a > span,
 			#nav > ul > li:hover > a > span {
-				/* color: #ED786A; */
-				color: #214187;
+				color: #2b55ad ;
+				/* color: #214187; */
 			}
 
 	.dropotron {
@@ -2100,8 +2102,8 @@ input, select, textarea {
 				-webkit-transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
 				-ms-transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
 				transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
-				/* color: #ed786a; */
-				color: #214187;
+				color: #2b55ad ;
+				/* color: #214187; */
 			}
 
 /* Features */
@@ -2588,7 +2590,7 @@ input, select, textarea {
 				border-right: solid 2px #3c3c3c;
 				font-weight: 400;
 				text-transform: uppercase;
-				color: #888;
+				color: #666;/* done */
 				letter-spacing: 2px;
 				font-size: 0.85em;
 			}
